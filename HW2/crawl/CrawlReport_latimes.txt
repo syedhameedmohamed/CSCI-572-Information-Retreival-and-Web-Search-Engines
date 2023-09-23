@@ -1,0 +1,44 @@
+Name: Syed Hameed Mohamed
+USC ID: 5542326999
+News site crawled: latimes.com
+Number of threads: 16
+
+Fetch Statistics
+================
+# fetches attempted: 19978
+# fetches succeeded: 19719
+# fetches failed or aborted: 259
+
+Outgoing URLs:
+==============
+Total URLs extracted: 2613552
+# unique URLs extracted: 1336975
+# unique URLs within News Site: 209429
+# unique URLs outside News Site: 1127546
+
+Status Codes:
+=============
+200 OK: 19719
+301 Moved Permanently: 113
+302 Found: 32
+307 Temporary Redirect: 75
+403 Forbidden: 1
+404 Not Found: 28
+500 Internal Server Error: 2
+504 Gateway Timeout: 8
+
+File Sizes:
+===========
+< 1KB: 23
+1KB ~ <10KB: 181
+10KB ~ <100KB: 1047
+100KB ~ <1MB: 17455
+>= 1MB: 71
+
+Content Types:
+==============
+image/gif: 1
+image/jpeg: 84
+image/png: 223
+image/svg+xml: 3
+text/html: 18466
