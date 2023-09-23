@@ -1,1 +1,6 @@
-As observed from the statistics, we can find that the comparison of search results (top-10) from Google and DuckDuckGo has a 20.3% overlap. It means that there was an average of 2.03 results that overlap in our set of queries. In addition, the maximum overlap was five results for our 100 queries. The spearman coefficient is either negative or zero for most query results, with only a few positive values. It denotes a negative or a non-existent relationship (correlation) between the ranks of the results from Google and DuckDuckGo. The average of Spearman's coefficient is -5.3515, which confirms that DuckDuckGo and Google use different techniques to prioritize their search results. It shows that DuckDuckGo performs worse when compared to Google in terms of search results.
+As observed from the statistics, we can find that the comparison of search results (top-10) from Google and DuckDuckGo has a 20.3% overlap. 
+It means that there was an average of 2.03 results that overlap in our set of queries. 
+In addition, the maximum overlap was five results for our 100 queries. 
+The spearman coefficient is either negative or zero for most query results, with only a few positive values. 
+It denotes a negative or a non-existent relationship (correlation) between the ranks of the results from Google and DuckDuckGo. 
+The average of Spearman's coefficient is -5.3515, which confirms that DuckDuckGo and Google use different techniques to prioritize their search results. It shows that DuckDuckGo performs worse when compared to Google in terms of search results.
