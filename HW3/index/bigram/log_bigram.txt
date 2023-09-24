@@ -1,0 +1,111 @@
+/usr/lib/hadoop/libexec//hadoop-functions.sh: line 2400: HADOOP_COM.GOOGLE.CLOUD.HADOOP.SERVICES.AGENT.JOB.SHIM.HADOOPRUNCLASSSHIM_USER: invalid variable name
+/usr/lib/hadoop/libexec//hadoop-functions.sh: line 2365: HADOOP_COM.GOOGLE.CLOUD.HADOOP.SERVICES.AGENT.JOB.SHIM.HADOOPRUNCLASSSHIM_USER: invalid variable name
+/usr/lib/hadoop/libexec//hadoop-functions.sh: line 2460: HADOOP_COM.GOOGLE.CLOUD.HADOOP.SERVICES.AGENT.JOB.SHIM.HADOOPRUNCLASSSHIM_OPTS: invalid variable name
+2022-10-20 14:36:10,093 INFO client.RMProxy: Connecting to ResourceManager at cluster-412b-m/10.138.0.4:8032
+2022-10-20 14:36:10,347 INFO client.AHSProxy: Connecting to Application History server at cluster-412b-m/10.138.0.4:10200
+2022-10-20 14:36:11,174 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2022-10-20 14:36:11,192 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/root/.staging/job_1666269541014_0003
+2022-10-20 14:36:11,726 INFO input.FileInputFormat: Total input files to process : 5
+2022-10-20 14:36:11,800 INFO mapreduce.JobSubmitter: number of splits:5
+2022-10-20 14:36:11,941 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1666269541014_0003
+2022-10-20 14:36:11,943 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2022-10-20 14:36:12,125 INFO conf.Configuration: resource-types.xml not found
+2022-10-20 14:36:12,125 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2022-10-20 14:36:12,186 INFO impl.YarnClientImpl: Submitted application application_1666269541014_0003
+2022-10-20 14:36:12,220 INFO mapreduce.Job: The url to track the job: http://cluster-412b-m:8088/proxy/application_1666269541014_0003/
+2022-10-20 14:36:12,220 INFO mapreduce.Job: Running job: job_1666269541014_0003
+2022-10-20 14:36:20,306 INFO mapreduce.Job: Job job_1666269541014_0003 running in uber mode : false
+2022-10-20 14:36:20,307 INFO mapreduce.Job:  map 0% reduce 0%
+2022-10-20 14:36:34,416 INFO mapreduce.Job:  map 20% reduce 0%
+2022-10-20 14:36:43,459 INFO mapreduce.Job:  map 33% reduce 0%
+2022-10-20 14:36:44,464 INFO mapreduce.Job:  map 47% reduce 0%
+2022-10-20 14:36:47,481 INFO mapreduce.Job:  map 60% reduce 0%
+2022-10-20 14:36:48,486 INFO mapreduce.Job:  map 73% reduce 0%
+2022-10-20 14:37:18,656 INFO mapreduce.Job:  map 75% reduce 0%
+2022-10-20 14:37:24,688 INFO mapreduce.Job:  map 80% reduce 0%
+2022-10-20 14:37:26,698 INFO mapreduce.Job:  map 84% reduce 0%
+2022-10-20 14:37:28,706 INFO mapreduce.Job:  map 87% reduce 0%
+2022-10-20 14:37:31,719 INFO mapreduce.Job:  map 93% reduce 0%
+2022-10-20 14:37:36,739 INFO mapreduce.Job:  map 98% reduce 0%
+2022-10-20 14:37:37,744 INFO mapreduce.Job:  map 100% reduce 0%
+2022-10-20 14:37:55,830 INFO mapreduce.Job:  map 100% reduce 9%
+2022-10-20 14:37:56,834 INFO mapreduce.Job:  map 100% reduce 15%
+2022-10-20 14:37:57,838 INFO mapreduce.Job:  map 100% reduce 31%
+2022-10-20 14:37:59,848 INFO mapreduce.Job:  map 100% reduce 53%
+2022-10-20 14:38:01,856 INFO mapreduce.Job:  map 100% reduce 66%
+2022-10-20 14:38:02,860 INFO mapreduce.Job:  map 100% reduce 68%
+2022-10-20 14:38:03,865 INFO mapreduce.Job:  map 100% reduce 84%
+2022-10-20 14:38:05,874 INFO mapreduce.Job:  map 100% reduce 89%
+2022-10-20 14:38:06,878 INFO mapreduce.Job:  map 100% reduce 92%
+2022-10-20 14:38:07,884 INFO mapreduce.Job:  map 100% reduce 96%
+2022-10-20 14:38:08,889 INFO mapreduce.Job:  map 100% reduce 97%
+2022-10-20 14:38:09,893 INFO mapreduce.Job:  map 100% reduce 100%
+2022-10-20 14:38:11,907 INFO mapreduce.Job: Job job_1666269541014_0003 completed successfully
+2022-10-20 14:38:11,998 INFO mapreduce.Job: Counters: 61
+	File System Counters
+		FILE: Number of bytes read=1485278185
+		FILE: Number of bytes written=2257909804
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		GS: Number of bytes read=186979991
+		GS: Number of bytes written=171370800
+		GS: Number of read operations=45652
+		GS: Number of large read operations=0
+		GS: Number of write operations=20647236
+		HDFS: Number of bytes read=700
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=5
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		HDFS: Number of bytes read erasure-coded=0
+	Job Counters
+		Killed map tasks=3
+		Killed reduce tasks=1
+		Launched map tasks=8
+		Launched reduce tasks=12
+		Rack-local map tasks=8
+		Total time spent by all maps in occupied slots (ms)=1161348036
+		Total time spent by all reduces in occupied slots (ms)=842279592
+		Total time spent by all map tasks (ms)=367981
+		Total time spent by all reduce tasks (ms)=266882
+		Total vcore-milliseconds taken by all map tasks=367981
+		Total vcore-milliseconds taken by all reduce tasks=266882
+		Total megabyte-milliseconds taken by all map tasks=1161348036
+		Total megabyte-milliseconds taken by all reduce tasks=842279592
+	Map-Reduce Framework
+		Map input records=5
+		Map output records=31158073
+		Map output bytes=706499145
+		Map output materialized bytes=768815621
+		Input split bytes=700
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=5161809
+		Reduce shuffle bytes=768815621
+		Reduce input records=31158073
+		Reduce output records=5161809
+		Spilled Records=91348392
+		Shuffled Maps =55
+		Failed Shuffles=0
+		Merged Map outputs=55
+		GC time elapsed (ms)=21431
+		CPU time spent (ms)=408370
+		Physical memory (bytes) snapshot=18350788608
+		Virtual memory (bytes) snapshot=71433515008
+		Total committed heap usage (bytes)=17759731712
+		Peak Map Physical memory (bytes)=1973702656
+		Peak Map Virtual memory (bytes)=4463202304
+		Peak Reduce Physical memory (bytes)=961261568
+		Peak Reduce Virtual memory (bytes)=4524228608
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters
+		Bytes Read=186979991
+	File Output Format Counters
+		Bytes Written=171370800
